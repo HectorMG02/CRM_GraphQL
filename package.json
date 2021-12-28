@@ -1,28 +1,22 @@
 {
-  "name": "crm",
-  "private": true,
+  "name": "crmgraphqlcurso",
+  "version": "1.0.0",
+  "description": "Curso de GraphQL",
+  "main": "index.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "graphql": "nodemon graphql/index.js"
+    "start": "node .",
+    "dev": "nodemon ."
   },
+  "author": "Juan De la torre",
+  "license": "ISC",
   "dependencies": {
-    "@apollo/client": "^3.5.6",
-    "apollo-link-context": "^1.0.20",
-    "apollo-server": "^3.5.0",
+    "apollo-server": "^2.11.0",
     "bcryptjs": "^2.4.3",
-    "dotenv": "^10.0.0",
-    "graphql": "^16.2.0",
+    "dotenv": "^8.2.0",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^6.1.2",
-    "net": "^1.0.2",
-    "node-fetch": "^3.1.0"
+    "mongoose": "^5.9.7"
   },
   "devDependencies": {
-    "eslint": "8.5.0",
-    "eslint-config-next": "12.0.7",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.2"
   }
 }
